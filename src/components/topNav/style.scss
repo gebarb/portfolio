@@ -1,0 +1,92 @@
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/mixins';
+@import '../../../node_modules/bootstrap/scss/variables';
+@import '../../variables';
+
+.navbar {
+    transition: all 0.5s ease-in-out;
+    padding-top: 0.75rem;
+    padding-bottom: 1rem;
+
+    &.navbar-light {
+        box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+        background-color: rgba(255, 255, 255, 0.9);
+        padding-top: 1.25rem;
+        padding-bottom: 1.75rem;
+
+        .navbar-nav {
+            .nav-link {
+                color: $primary;
+
+                &:hover {
+                    color: $primary;
+                    &:before {
+                        width: 35px;
+                    }
+                }
+                &:before {
+                    background-color: $primary;
+                }
+                &.active {
+                    color: $black;
+                }
+            }
+        }
+    }
+    &.navbar-dark {
+        background-color: transparent;
+        .navbar-nav {
+            .nav-link {
+                color: $white;
+                &,
+                &.active,
+                &:hover {
+                    color: $white;
+                    &:before {
+                        background-color: $white;
+                    }
+                }
+                &:hover {
+                    &:before {
+                        width: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-brand {
+        svg {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+    .navbar-nav {
+        .nav-link {
+            text-transform: uppercase;
+            font-weight: 600;
+            position: relative;
+            margin-right: 1.5rem;
+            color: $primary;
+
+            &:before {
+                content: '';
+                position: absolute;
+                margin-left: 0.5rem;
+                width: 0;
+                bottom: 0;
+                left: 0;
+                height: 2px;
+                transition: all 500ms ease;
+                background-color: $white;
+            }
+            &.active {
+                &:before {
+                    background-color: $primary;
+                    width: 35px;
+                }
+            }
+        }
+    }
+}
