@@ -157,7 +157,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url: "/bash",
+                            url: "https://github.com/gebarb/bash",
                         },
                     ],
                 },
@@ -170,11 +170,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url: "/nim",
-                        },
-                        {
-                            label: "apk",
-                            url: "/nim/apk",
+                            url: "https://github.com/gebarb/nim",
                         },
                     ],
                 },
@@ -187,11 +183,11 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url: "/movie-decider",
+                            url: "https://github.com/gebarb/movie-decider",
                         },
                         {
                             label: "app",
-                            url: "/movie",
+                            url: "https://movie.graysonebarb.com",
                         },
                     ],
                 },
@@ -204,7 +200,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url: "/compiler",
+                            url: "https://github.com/gebarb/compiler",
                         },
                     ],
                 },
@@ -218,11 +214,7 @@ export const initState: Portfolio = {
                         {
                             label: "src",
                             url:
-                                "/elawaves",
-                        },
-                        {
-                            label: "apk",
-                            url: "/elawaves/apk/",
+                                "https://github.com/gebarb/elawaves",
                         },
                     ],
                 },
@@ -236,7 +228,7 @@ export const initState: Portfolio = {
                         {
                             label: "src",
                             url:
-                                "/portfolio",
+                                "https://github.com/gebarb/portfolio",
                         },
                     ],
                 },
@@ -277,6 +269,10 @@ export const initState: Portfolio = {
             {
                 service: "linkedin",
                 link: "https://www.linkedin.com/in/grayson-ebarb/",
+            },
+            {
+                service: "github",
+                link: "https://github.com/gebarb",
             },
         ],
         footerMessage: "Thanks for stopping by!",

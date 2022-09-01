@@ -6,7 +6,7 @@ import { Navbar } from 'react-bootstrap'
 import { NavbarProps } from 'react-bootstrap'
 import NavMenu from './navMenu'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCannabis, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
+import { faCannabis } from '@fortawesome/free-solid-svg-icons'
 import Portfolio from '../../models/portfolio'
 import $ from 'jquery'
 import './style.scss'
@@ -51,7 +51,7 @@ export const TopNav: React.FC<Portfolio> = props => {
                     target="_blank"
                     className="ml-3 mt-2"
                 >
-                    <FontAwesomeIcon icon={faCodeBranch} />
+                    <FontAwesomeIcon icon={faCannabis} />
                 </Navbar.Brand>
             )}
             <NavMenu {...props} />
