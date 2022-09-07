@@ -160,14 +160,14 @@ export const initState: Portfolio = {
                     title: "ASL Compiler",
                     summary:
                         "A compiler for an example language, built in Python with Lex & Yacc",
-                    image: "compiler.png",
+                    image: "ply.png",
                 },
                 {
                     id: "college3",
                     title: "Macintosh File System",
                     summary:
                         "A demo of the Macintosh File System, developed in C",
-                    image: "bash.png",
+                    image: "mac.jpg",
                     links: [
                         {
                             label: "src",
@@ -246,7 +246,7 @@ export const initState: Portfolio = {
                     title: "Cannabis Reports API",
                     summary:
                         "Helper Classes for communicating with cannabisreports.com, written in Python",
-                    image: "",
+                    image: "cannabis_reports.png",
                     links: [
                         {
                             label: "src",
@@ -260,7 +260,7 @@ export const initState: Portfolio = {
                     title: "Alien Invasion",
                     summary:
                         "Mimic of Space Invaders, built in Python with Pygame",
-                    image: "",
+                    image: "alien.bmp",
                     links: [
                         {
                             label: "src",
@@ -293,10 +293,11 @@ export const initState: Portfolio = {
                 },
                 {
                     id: "contract3",
-                    title: "Shopify & BigCommerce Applications",
+                    title: "eCommerce Applications",
                     summary:
-                        "Created & Managed Public and Private Apps, built in TypeScript, utilizing Shopify & BigCommerce REST APIs",
-                    image: "shopify.png",
+                        "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST APIs",
+                        
+                    image: "ecom.png",
                 },
             ],
         },
