@@ -143,29 +143,43 @@ export const initState: Portfolio = {
     },
     sections: [
         {
-            id: "portfolio",
-            menu: "Portfolio",
-            headline: "Portfolio",
-            subhead: "My Open-Source Projects",
+            id: "college",
+            menu: "College Projects",
+            headline: "College Projects",
+            subhead: "Some programs from college",
             projects: [
                 {
-                    id: "project1",
+                    id: "college1",
                     title: "Bash Shell",
                     summary:
-                        "A simple UNIX Bash Shell developed in C",
+                        "A UNIX Bash Shell, developed in C",
+                    image: "bash.png",
+                },
+                {
+                    id: "college2",
+                    title: "ASL Compiler",
+                    summary:
+                        "A compiler for an example language, built in Python with Lex & Yacc",
+                    image: "compiler.png",
+                },
+                {
+                    id: "college3",
+                    title: "Macintosh File System",
+                    summary:
+                        "A demo of the Macintosh File System, developed in C",
                     image: "bash.png",
                     links: [
                         {
                             label: "src",
-                            url: "https://github.com/gebarb/bash",
+                            url: "https://github.com/gebarb/mfs_demo",
                         },
                     ],
                 },
                 {
-                    id: "project2",
+                    id: "college4",
                     title: "Nim Android Game",
                     summary:
-                        "Android Application of the Nim Game to show implementation of Game Theory",
+                        "An Android Application of the Nim Game to show implementation of Game Theory",
                     image: "nim.png",
                     links: [
                         {
@@ -175,10 +189,10 @@ export const initState: Portfolio = {
                     ],
                 },
                 {
-                    id: "project3",
+                    id: "college5",
                     title: "Movie Decider",
                     summary:
-                        "A simple Web Application to recommend movies to watch based on a supplied search and selection",
+                        "A JavaScript Web Application to recommend movies to watch based on a supplied search and selection",
                     image: "movie_reel.jpg",
                     links: [
                         {
@@ -192,20 +206,7 @@ export const initState: Portfolio = {
                     ],
                 },
                 {
-                    id: "project4",
-                    title: "Compiler",
-                    summary:
-                        "A simple compiler for an example language built on Python",
-                    image: "compiler.png",
-                    links: [
-                        {
-                            label: "src",
-                            url: "https://github.com/gebarb/compiler",
-                        },
-                    ],
-                },
-                {
-                    id: "project5",
+                    id: "college6",
                     title: "ELAWaves",
                     summary:
                         "An Android P2P Encrypted Messaging Application built on the Elastos SDK",
@@ -218,17 +219,53 @@ export const initState: Portfolio = {
                         },
                     ],
                 },
+            ],
+        },
+        {
+            id: "portfolio",
+            menu: "Portfolio",
+            headline: "Portfolio",
+            subhead: "My Open-Source Projects",
+            projects: [
                 {
-                    id: "project6",
+                    id: "project1",
                     title: "This Portfolio",
                     summary:
-                        "Built with React and TypeScript, and hosted on a Raspberry Pi",
+                        "Built with React and TypeScript, and hosted on AWS",
                     image: "portfolio.png",
                     links: [
                         {
                             label: "src",
                             url:
                                 "https://github.com/gebarb/portfolio",
+                        },
+                    ],
+                },
+                {
+                    id: "project2",
+                    title: "Cannabis Reports API",
+                    summary:
+                        "Helper Classes for communicating with cannabisreports.com, written in Python",
+                    image: "",
+                    links: [
+                        {
+                            label: "src",
+                            url:
+                                "https://github.com/gebarb/apis/tree/master/cannabis_reports",
+                        },
+                    ],
+                },
+                {
+                    id: "project3",
+                    title: "Alien Invasion",
+                    summary:
+                        "Mimic of Space Invaders, built in Python with Pygame",
+                    image: "",
+                    links: [
+                        {
+                            label: "src",
+                            url:
+                                "https://github.com/gebarb/python_crash_course/tree/master/alien_invasion",
                         },
                     ],
                 },
@@ -256,9 +293,9 @@ export const initState: Portfolio = {
                 },
                 {
                     id: "contract3",
-                    title: "Shopify Applications",
+                    title: "Shopify & BigCommerce Applications",
                     summary:
-                        "Created & Managed Public Shopify Apps built in TypeScript utilizing Shopify's REST API",
+                        "Created & Managed Public and Private Apps, built in TypeScript, utilizing Shopify & BigCommerce REST APIs",
                     image: "shopify.png",
                 },
             ],

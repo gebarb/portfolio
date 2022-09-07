@@ -1,10 +1,10 @@
-@import 'variables';
-@import '../node_modules/bootstrap/scss/bootstrap';
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-html, body {
-    background: radial-gradient(rgb(1, 8, 53), rgb(5, 32, 12));
-  }
-
+html,
+body {
+  background: radial-gradient(rgb(1, 8, 53), rgb(5, 32, 12));
+}
 
 h1,
 h2,
@@ -12,58 +12,58 @@ h3,
 h4,
 h5,
 h6 {
-    color: $heading-color;
+  color: $heading-color;
 }
 
 a {
-    transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
 }
 
 .box-shadow,
 .paralax-mf,
 .service-box,
 .work-box {
-    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
 .box-shadow-a,
 .button:hover {
-    box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #cde1f8;
 }
 
 .bg-image {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 
-    @include media-breakpoint-up(lg) {
-        background-attachment: scroll;
-    }
+  @include media-breakpoint-up(lg) {
+    background-attachment: scroll;
+  }
 }
 
 .bg-medium {
-    background: linear-gradient(90deg, $gray-600 0%, $gray-700 100%);
+  background: linear-gradient(90deg, $gray-600 0%, $gray-700 100%);
 }
 
 .display-table {
-    width: 100%;
-    height: 100%;
-    display: table;
+  width: 100%;
+  height: 100%;
+  display: table;
 }
 
 .table-cell {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .section-wrapper {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 .ul-resect,
 .socials ul {
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 0;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }

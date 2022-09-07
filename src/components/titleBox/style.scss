@@ -1,47 +1,46 @@
-@import '../../variables';
+@import "../../variables";
 
 .title-box {
-    margin: 0 auto 3rem auto;
+  margin: 0 auto 3rem auto;
 }
 
 .title-a {
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: whitesmoke;
-
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: whitesmoke;
 }
 
 .subtitle-a {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .line-mf {
-    width: 40px;
-    height: 5px;
-    background-color: $primary;
-    margin: 0 auto;
+  width: 40px;
+  height: 5px;
+  background-color: $primary;
+  margin: 0 auto;
 }
 
 /* Title Left */
 
 .title-box-2 {
-    margin-bottom: 3rem;
-    .line-mf {
-        display: none;
-    }
+  margin-bottom: 3rem;
+  .line-mf {
+    display: none;
+  }
 }
 
 .title-left {
-    font-size: 2rem;
-    position: relative;
+  font-size: 2rem;
+  position: relative;
 }
 
 .title-left:before {
-    content: '';
-    position: absolute;
-    height: 3px;
-    background-color: $primary;
-    width: 100px;
-    bottom: -12px;
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: $primary;
+  width: 100px;
+  bottom: -12px;
 }

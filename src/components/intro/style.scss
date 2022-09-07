@@ -1,37 +1,37 @@
 .intro {
-    height: 100vh;
-    position: relative;
+  height: 100vh;
+  position: relative;
+  color: whitesmoke;
+
+  .intro-content {
+    text-align: center;
+    position: absolute;
+  }
+  .overlay-intro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .intro-title {
     color: whitesmoke;
+    font-weight: 600;
+    font-size: 3rem;
 
-    .intro-content {
-        text-align: center;
-        position: absolute;
+    @media (min-width: 768px) {
+      font-size: 4.5rem;
     }
-    .overlay-intro {
-        background-color: rgba(0, 0, 0, 0.6);
-        position: absolute;
-        top: 0;
-        left: 0px;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0.9;
-    }
-    .intro-title {
-        color: whitesmoke;
-        font-weight: 600;
-        font-size: 3rem;
+  }
+  .intro-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
 
-        @media (min-width: 768px) {
-            font-size: 4.5rem;
-        }
+    @media (min-width: 768px) {
+      font-size: 2.5rem;
     }
-    .intro-subtitle {
-        font-size: 1.5rem;
-        font-weight: 300;
-
-        @media (min-width: 768px) {
-            font-size: 2.5rem;
-        }
-    }
+  }
 }

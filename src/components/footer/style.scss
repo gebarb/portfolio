@@ -1,58 +1,58 @@
-@import '../../variables';
+@import "../../variables";
 
 .footer-paralax {
-    padding: 3rem 0 0 0;
+  padding: 3rem 0 0 0;
 }
 
 footer {
-    text-align: center;
-    color: whitesmoke;
-    padding-bottom: 4rem;
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 4rem;
 
-    .copyright {
-        margin-bottom: 0.3rem;
-    }
+  .copyright {
+    margin-bottom: 0.3rem;
+  }
 }
 
 .socials {
-    padding: 1.5rem 0;
+  padding: 1.5rem 0;
 
-    li {
-        display: inline-block;
+  li {
+    display: inline-block;
+  }
+
+  .ico-circle {
+    height: 45px;
+    width: 45px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px $primary;
+    transition: all 500ms ease;
+    color: #fff;
+
+    &:hover {
+      background-color: $primary;
+      box-shadow: 0 0 0 3px #cde1f8;
+      transition: all 500ms ease;
     }
-
-    .ico-circle {
-        height: 45px;
-        width: 45px;
-        font-size: 2rem;
-        border-radius: 50%;
-        line-height: 1.4;
-        margin: 0 15px 0 0;
-        box-shadow: 0 0 0 3px $primary;
-        transition: all 500ms ease;
-        color: #fff;
-
-        &:hover {
-            background-color: $primary;
-            box-shadow: 0 0 0 3px #cde1f8;
-            transition: all 500ms ease;
-        }
-    }
+  }
 }
 
 .ico-circle {
-    height: 100px;
-    width: 100px;
-    font-size: 2rem;
-    border-radius: 50%;
-    line-height: 1.55;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: 0 0 0 10px $primary;
-    display: block;
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px $primary;
+  display: block;
 }
 
 .paralax-mf {
-    position: relative;
-    padding: 5rem 0;
+  position: relative;
+  padding: 5rem 0;
 }
