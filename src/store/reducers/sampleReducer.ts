@@ -143,6 +143,86 @@ export const initState: Portfolio = {
     },
     sections: [
         {
+            id: "portfolio",
+            menu: "Portfolio",
+            headline: "Portfolio",
+            subhead: "My Open-Source Projects",
+            projects: [
+                {
+                    id: "project1",
+                    title: "This Portfolio",
+                    summary:
+                        "Built with React and TypeScript, and hosted on AWS",
+                    image: "portfolio.png",
+                    links: [
+                        {
+                            label: "src",
+                            url:
+                                "https://github.com/gebarb/portfolio",
+                        },
+                    ],
+                },
+                {
+                    id: "project2",
+                    title: "Cannabis Reports API",
+                    summary:
+                        "Helper Classes for communicating with cannabisreports.com, written in Python",
+                    image: "cannabis_reports.png",
+                    links: [
+                        {
+                            label: "src",
+                            url:
+                                "https://github.com/gebarb/apis/tree/master/cannabis_reports",
+                        },
+                    ],
+                },
+                {
+                    id: "project3",
+                    title: "Alien Invasion",
+                    summary:
+                        "Mimic of Space Invaders, built in Python with Pygame",
+                    image: "alien_invasion.png",
+                    links: [
+                        {
+                            label: "src",
+                            url:
+                                "https://github.com/gebarb/python_crash_course/tree/master/alien_invasion",
+                        },
+                    ],
+                },
+            ],
+        },
+        {
+            id: "contracts",
+            menu: "Contracting",
+            headline: "Contracting",
+            subhead: "Proprietary Work",
+            projects: [
+                {
+                    id: "contract1",
+                    title: "Point-of-Sale",
+                    summary:
+                        "Designed & Developed a Point-of-Sale System in Object-Oriented Java for a Trade-In Comics/Games/Electronics store",
+                    image: "pos.jpg",
+                },
+                {
+                    id: "contract2",
+                    title: "Sales Forecasting with Fourier Analysis",
+                    summary:
+                        "Derived an Algorithm for eCommerce Sales Forecasting utilizing Fourier Analysis of Time-Series Data",
+                    image: "sales_forecast.png",
+                },
+                {
+                    id: "contract3",
+                    title: "eCommerce Applications",
+                    summary:
+                        "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST APIs",
+
+                    image: "ecom.png",
+                },
+            ],
+        },
+        {
             id: "college",
             menu: "College Projects",
             headline: "College Projects",
@@ -218,86 +298,6 @@ export const initState: Portfolio = {
                                 "https://github.com/gebarb/elawaves",
                         },
                     ],
-                },
-            ],
-        },
-        {
-            id: "portfolio",
-            menu: "Portfolio",
-            headline: "Portfolio",
-            subhead: "My Open-Source Projects",
-            projects: [
-                {
-                    id: "project1",
-                    title: "This Portfolio",
-                    summary:
-                        "Built with React and TypeScript, and hosted on AWS",
-                    image: "portfolio.png",
-                    links: [
-                        {
-                            label: "src",
-                            url:
-                                "https://github.com/gebarb/portfolio",
-                        },
-                    ],
-                },
-                {
-                    id: "project2",
-                    title: "Cannabis Reports API",
-                    summary:
-                        "Helper Classes for communicating with cannabisreports.com, written in Python",
-                    image: "cannabis_reports.png",
-                    links: [
-                        {
-                            label: "src",
-                            url:
-                                "https://github.com/gebarb/apis/tree/master/cannabis_reports",
-                        },
-                    ],
-                },
-                {
-                    id: "project3",
-                    title: "Alien Invasion",
-                    summary:
-                        "Mimic of Space Invaders, built in Python with Pygame",
-                    image: "alien.bmp",
-                    links: [
-                        {
-                            label: "src",
-                            url:
-                                "https://github.com/gebarb/python_crash_course/tree/master/alien_invasion",
-                        },
-                    ],
-                },
-            ],
-        },
-        {
-            id: "contracts",
-            menu: "Contracting",
-            headline: "Contracting",
-            subhead: "Proprietary Work",
-            projects: [
-                {
-                    id: "contract1",
-                    title: "Point-of-Sale",
-                    summary:
-                        "Designed & Developed a Point-of-Sale System in Object-Oriented Java for a Trade-In Comics/Games/Electronics store",
-                    image: "pos.jpg",
-                },
-                {
-                    id: "contract2",
-                    title: "Sales Forecasting with Fourier Analysis",
-                    summary:
-                        "Derived an Algorithm for eCommerce Sales Forecasting utilizing Fourier Analysis of Time-Series Data",
-                    image: "sales_forecast.png",
-                },
-                {
-                    id: "contract3",
-                    title: "eCommerce Applications",
-                    summary:
-                        "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST APIs",
-                        
-                    image: "ecom.png",
                 },
             ],
         },
