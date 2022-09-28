@@ -32,7 +32,7 @@ export const initState: Portfolio = {
         jobsHeadline: "Professional Experience",
         jobs: [
             {
-                title: "Technical Integrations Specialist",
+                title: "Integrations Engineer",
                 company: "RevOffers",
                 timeframe: "February 2021 - Present",
                 summary: [
@@ -46,18 +46,18 @@ export const initState: Portfolio = {
                 ]
             },
             {
-                title: "Software Tester/QA Analyst",
+                title: "Lead Integrations Analyst",
                 company: "CGI Inc.",
                 timeframe: "August 2019 - February 2021",
                 summary: [
-                    "Planned, wrote, and executed formal test cases for a $1.2 Billion monthly Pension and Payroll Solution for the California State Government",
+                    "Planned, wrote, and executed formal test cases for a $1.2 Billion monthly Pension and Payroll Solution for CalSTRS",
                     "Performed as Test Lead and coordinated efforts for technical file-based Interfaces",
                     "Data Mining & Generation",
                     "Supervised and executed formal test cases for integration of the product with numerous outside private, state, and federal organizations",
                 ]
             },
             {
-                title: "Point-of-Sale Escalation Technician",
+                title: "Database Admin/QA Analyst",
                 company: "Granbury Restaurant Solutions",
                 timeframe: "September 2016 - May 2019",
                 summary: [
@@ -190,6 +190,20 @@ export const initState: Portfolio = {
                         },
                     ],
                 },
+                {
+                    id: "project4",
+                    title: "Learning Log",
+                    summary:
+                        "An organized online journal, built in Python with Django & Bootstrap",
+                    image: "learning_log.png",
+                    links: [
+                        {
+                            label: "src",
+                            url:
+                                "https://github.com/gebarb/python_crash_course/tree/master/learning_log",
+                        },
+                    ],
+                },
             ],
         },
         {
@@ -216,7 +230,7 @@ export const initState: Portfolio = {
                     id: "contract3",
                     title: "eCommerce Applications",
                     summary:
-                        "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST APIs",
+                        "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST & GraphQL APIs",
 
                     image: "ecom.png",
                 },
@@ -289,7 +303,7 @@ export const initState: Portfolio = {
                     id: "college6",
                     title: "ELAWaves",
                     summary:
-                        "An Android P2P Encrypted Messaging Application built on the Elastos SDK",
+                        "An Android P2P Encrypted Messaging Application built on the Elastos Blockchain & SDK",
                     image: "elastos.png",
                     links: [
                         {
