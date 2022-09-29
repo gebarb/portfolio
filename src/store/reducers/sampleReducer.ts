@@ -200,7 +200,7 @@ export const initState: Portfolio = {
                         },
                         {
                             label: "app",
-                            url: "http://log.graysonebarb.com",
+                            url: "https://log.graysonebarb.com",
                         },
                     ],
                 },
