@@ -157,8 +157,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url:
-                                "https://github.com/gebarb/portfolio",
+                            url: "https://github.com/gebarb/portfolio",
                         },
                     ],
                 },
@@ -171,8 +170,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url:
-                                "https://github.com/gebarb/apis/tree/master/cannabis_reports",
+                            url: "https://github.com/gebarb/apis/tree/master/cannabis_reports",
                         },
                     ],
                 },
@@ -185,8 +183,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url:
-                                "https://github.com/gebarb/python_crash_course/tree/master/alien_invasion",
+                            url: "https://github.com/gebarb/python_crash_course/tree/master/alien_invasion",
                         },
                     ],
                 },
@@ -199,8 +196,11 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url:
-                                "https://github.com/gebarb/python_crash_course/tree/master/learning_log",
+                            url: "https://github.com/gebarb/python_crash_course/tree/master/learning_log",
+                        },
+                        {
+                            label: "app",
+                            url: "http://log.graysonebarb.com",
                         },
                     ],
                 },
