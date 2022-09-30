@@ -39,7 +39,7 @@ export const Experience: React.FC<{ experience: ExperienceModel[] }> = (
 };
 
 const mapStateToProps = (state: RootState) => {
-  // go through logic to return jobs and edu
+  // TODO: Sort these
   const jobs = state.portfolio.resume.jobs;
   const edu = state.portfolio.resume.edu;
 

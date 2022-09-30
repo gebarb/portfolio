@@ -34,7 +34,7 @@ export const initState: Portfolio = {
         jobs: [
             {
                 title: "Integrations Engineer",
-                company: "RevOffers",
+                company: "Katalys",
                 timeframe: "February 2021 - Present",
                 summary: [
                     "Within 1 year, doubled number of Onboarded Advertisers and reduce Onboarding Time from 3 months to 1 week"
@@ -48,7 +48,7 @@ export const initState: Portfolio = {
             },
             {
                 title: "Lead Integrations Analyst",
-                company: "CGI Inc.",
+                company: "CGI Inc. - CalSTRS Project",
                 timeframe: "August 2019 - February 2021",
                 summary: [
                     "Planned, wrote, and executed formal test cases for a $1.2 Billion monthly Pension and Payroll Solution for CalSTRS",
@@ -153,7 +153,7 @@ export const initState: Portfolio = {
                     id: "project1",
                     title: "This Portfolio",
                     summary:
-                        "Built with React and TypeScript, and hosted on AWS Amplify",
+                        "Built with React and TypeScript, and hosted with AWS Amplify",
                     image: "portfolio.png",
                     links: [
                         {
@@ -192,7 +192,7 @@ export const initState: Portfolio = {
                     id: "project4",
                     title: "Learning Log",
                     summary:
-                        "An organized online journal, built in Python with Django & Bootstrap, and hosted on AWS Elastic Beanstalk",
+                        "An organized online journal, built in Python with Django & Bootstrap, and hosted with AWS Elastic Beanstalk",
                     image: "learning_log.png",
                     links: [
                         {
@@ -279,7 +279,7 @@ export const initState: Portfolio = {
                     id: "college5",
                     title: "Movie Decider",
                     summary:
-                        "A JavaScript Web Application to recommend movies to watch based on a supplied search and selection",
+                        "A JavaScript Web Application to recommend movies to watch based on a supplied search and selection, hosted with AWS Amplify",
                     image: "movie_reel.jpg",
                     links: [
                         {
