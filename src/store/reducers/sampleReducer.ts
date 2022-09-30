@@ -35,7 +35,7 @@ export const initState: Portfolio = {
             {
                 title: "Integrations Engineer",
                 company: "Katalys",
-                image: "katalys.jpeg",
+                image: "katalys.png",
                 timeframe_begin: "February 2021",
                 timeframe_end: (() => {
                     const curr_time = new Date();
