@@ -147,7 +147,7 @@ export const initState: Portfolio = {
             id: "portfolio",
             menu: "Portfolio",
             headline: "Portfolio",
-            subhead: "My Open-Source Projects",
+            subhead: "Open-Source & Proprietary Projects",
             projects: [
                 {
                     id: "project1",
@@ -233,7 +233,7 @@ export const initState: Portfolio = {
             id: "college",
             menu: "College Projects",
             headline: "College Projects",
-            subhead: "Some programs from college",
+            subhead: "College Projects",
             projects: [
                 {
                     id: "college1",
