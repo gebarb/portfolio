@@ -2,8 +2,9 @@ export default interface Edu {
     timeframe_begin: string
     timeframe_end: string
     degree: string
-    college: string
-    programGPA: string
+    school: string
+    programGPA?: string
     overallGPA: string
     summary: string[]
+    image?: string
 }

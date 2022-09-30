@@ -35,6 +35,7 @@ export const initState: Portfolio = {
             {
                 title: "Integrations Engineer",
                 company: "Katalys",
+                image: "katalys.jpeg",
                 timeframe_begin: "February 2021",
                 timeframe_end: (() => {
                     const curr_time = new Date();
@@ -53,6 +54,7 @@ export const initState: Portfolio = {
             {
                 title: "Lead Integrations Analyst",
                 company: "CGI Inc. * CalSTRS Project",
+                image: "cgi.jpg",
                 timeframe_begin: "August 2019",
                 timeframe_end: "February 2021",
                 summary: [
@@ -65,6 +67,7 @@ export const initState: Portfolio = {
             {
                 title: "Database Admin/QA Analyst",
                 company: "Granbury Restaurant Solutions",
+                image: "granbury.png",
                 timeframe_begin: "September 2016",
                 timeframe_end: "May 2019",
                 summary: [
@@ -77,6 +80,7 @@ export const initState: Portfolio = {
             {
                 title: "IT Specialist",
                 company: "Youth Digital, Inc.",
+                image: "youthdigital.jpg",
                 timeframe_begin: "April 2016",
                 timeframe_end: "August 2016",
                 summary: [
@@ -90,6 +94,7 @@ export const initState: Portfolio = {
                 company: "United Supermarkets",
                 timeframe_begin: "April 2015",
                 timeframe_end: "April 2016",
+                image: "united.png",
                 summary: [
                     "Management & Scheduling of Staff/Sales Floor",
                     "Inventory Management",
@@ -101,7 +106,8 @@ export const initState: Portfolio = {
         edu: [
             {
                 degree: "Bachelor of Science in Computer Science & Mathematics",
-                college: "The University of Texas - Arlington",
+                school: "The University of Texas - Arlington",
+                image: "uta.png",
                 timeframe_begin: "August 2015",
                 timeframe_end: "December 2019",
                 overallGPA: "Overall GPA: 3.266",
@@ -113,6 +119,15 @@ export const initState: Portfolio = {
                     "Project Management",
                     "Software Testing & Maintenance",
                 ]
+            },
+            {
+                degree: "Salutatorian",
+                school: "Early High School",
+                image: "early.png",
+                timeframe_begin: "August 2011",
+                timeframe_end: "May 2015",
+                overallGPA: "Overall GPA: 4.0",
+                summary: [""]
             }
         ],
         skillsHeadline: "Skills & Certifications",

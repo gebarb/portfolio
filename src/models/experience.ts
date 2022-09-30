@@ -5,7 +5,7 @@ export default interface Experience {
     company?: string
     summary: string[]
     degree?: string
-    college?: string
+    school?: string
     programGPA?: string
     overallGPA?: string
     image?: string

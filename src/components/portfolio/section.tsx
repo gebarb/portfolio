@@ -19,9 +19,12 @@ export const ProjectSet: React.FC<Section> = (props) => {
           subhead={props.subhead}
         />
       </Row>
-      <Row>
+      {/* 
+      TODO: scroll on hover instead of with a scrollbar
+      */}
+      <Row className="d-flex flex-row flex-nowrap overflow-auto">
         {props.projects.map((project: Project, i: number) => {
-          images.push({ source: makePath(project.image) });
+          if (project.image) images.push({ source: makePath(project.image) });
 
           return (
             <Col xl={4} md={6} className="mb-4" key={project.id}>

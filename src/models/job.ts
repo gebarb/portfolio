@@ -4,4 +4,5 @@ export default interface Job {
     title: string
     company: string
     summary: string[]
+    image?: string
 }

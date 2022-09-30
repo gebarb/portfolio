@@ -12,14 +12,12 @@ export const ExperienceCard: React.FC<Experience> = (props) => {
     sub = props.company;
   } else if (props.degree) {
     header = props.degree;
-    sub = props.college;
+    sub = props.school;
   }
 
   return (
     <Card className="shadow-sm">
-      {/*
       <Card.Img variant="top" src={imagePath} alt={header} />
-      */}
       <Card.Body>
         <Card.Title>{header}</Card.Title>
         <Card.Subtitle>{sub}</Card.Subtitle>
