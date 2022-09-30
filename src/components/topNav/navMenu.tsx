@@ -10,8 +10,16 @@ export const navMenu: React.FC<Portfolio> = (props) => {
         <Nav.Link href="#home" onClick={(e: any) => smoothScroll(e, "home")}>
           {props.menu.home}
         </Nav.Link>
-        <Nav.Link href="#about" onClick={(e: any) => smoothScroll(e, "about")}>
-          {props.menu.about}
+        <Nav.Link
+          href="#experience"
+          onClick={(e: any) => smoothScroll(e, "experience")}
+        >
+          {props.menu.experience}
+          {/*
+        Using simplified Experience variant instead of Resume
+        <Nav.Link href="#resume" onClick={(e: any) => smoothScroll(e, "resume")}>
+          {props.menu.resume}
+          */}
         </Nav.Link>
         {props.sections.map((section) => (
           <Nav.Link

@@ -6,10 +6,20 @@
 .card {
   overflow: hidden;
   transition: border 0.5s;
+  background-color: whitesmoke;
 
   .card-body {
     z-index: 10;
+    .card-title {
+      position: relative;
+      color: black;
+    }
+    .card-subtitle {
+      position: relative;
+      color: gray;
+    }
     .card-text {
+      position: relative;
       color: gray;
     }
   }

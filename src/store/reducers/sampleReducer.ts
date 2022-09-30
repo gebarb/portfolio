@@ -9,7 +9,8 @@ export const initState: Portfolio = {
     },
     menu: {
         home: "Welcome",
-        about: "Resume",
+        experience: "Experience",
+        resume: "Resume",
     },
     intro: {
         headline: "Howdy! Nice to meet you.",
@@ -152,7 +153,7 @@ export const initState: Portfolio = {
                     id: "project1",
                     title: "This Portfolio",
                     summary:
-                        "Built with React and TypeScript, and hosted on AWS",
+                        "Built with React and TypeScript, and hosted on AWS Amplify",
                     image: "portfolio.png",
                     links: [
                         {
@@ -191,7 +192,7 @@ export const initState: Portfolio = {
                     id: "project4",
                     title: "Learning Log",
                     summary:
-                        "An organized online journal, built in Python with Django & Bootstrap",
+                        "An organized online journal, built in Python with Django & Bootstrap, and hosted on AWS Elastic Beanstalk",
                     image: "learning_log.png",
                     links: [
                         {
@@ -204,30 +205,22 @@ export const initState: Portfolio = {
                         },
                     ],
                 },
-            ],
-        },
-        {
-            id: "contracts",
-            menu: "Contracting",
-            headline: "Contracting",
-            subhead: "Proprietary Work",
-            projects: [
                 {
-                    id: "contract1",
+                    id: "project5",
                     title: "Point-of-Sale",
                     summary:
                         "Designed & Developed a Point-of-Sale System in Object-Oriented Java for a Trade-In Comics/Games/Electronics store",
                     image: "pos.jpg",
                 },
                 {
-                    id: "contract2",
+                    id: "project6",
                     title: "Sales Forecasting with Fourier Analysis",
                     summary:
                         "Derived an Algorithm for eCommerce Sales Forecasting utilizing Fourier Analysis of Time-Series Data",
                     image: "sales_forecast.png",
                 },
                 {
-                    id: "contract3",
+                    id: "project7",
                     title: "eCommerce Applications",
                     summary:
                         "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST & GraphQL APIs",

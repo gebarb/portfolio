@@ -9,6 +9,7 @@ import "./style.scss";
 import Document from "./components/document";
 import TopNav from "./components/topNav";
 import Intro from "./components/intro";
+import Experience from "./components/experience";
 import Resume from "./components/resume";
 import Portfolio from "./components/portfolio";
 import Footer from "./components/footer";
@@ -37,8 +38,12 @@ export const App = () => {
         <Document />
         <TopNav />
         <Intro />
+        <Experience />
         <Portfolio />
+        {/*
+        Using simplified Experience variant
         <Resume />
+        */}
         <Footer />
         <BackToTop />
         <Preloader />
