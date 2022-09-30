@@ -18,7 +18,10 @@ export const Experience: React.FC<{ experience: ExperienceModel[] }> = (
   return (
     <Container className="section-wrapper">
       <Row id="experience" className="text-center">
-        <TitleBox headline={"Experience"} />
+        <TitleBox
+          headline={"Experience"}
+          subhead={"Previous Roles & Education"}
+        />
       </Row>
       <Row>
         {props.experience.map((exp: ExperienceModel, i: number) => {

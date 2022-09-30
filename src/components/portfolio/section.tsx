@@ -14,7 +14,7 @@ export const ProjectSet: React.FC<Section> = (props) => {
   return (
     <Container className="section-wrapper">
       <Row id={props.id} className="text-center">
-        <TitleBox headline={props.headline}/>
+        <TitleBox headline={props.headline == "Portfolio" ? props.headline : ""} subhead={props.subhead} />
       </Row>
       <Row>
         {props.projects.map((project: Project, i: number) => {
