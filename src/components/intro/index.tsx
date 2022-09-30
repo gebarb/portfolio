@@ -3,8 +3,7 @@ import { connect } from "react-redux";
 import { compose } from "redux";
 import { RootState } from "../../store/myTypes";
 import { Container } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { FaChevronCircleDown } from "react-icons/fa";
 import Typed from "react-typed";
 import { smoothScroll } from "../../utilities";
 import "./firefly.scss";
@@ -50,7 +49,7 @@ export const Intro: React.FC<IntroProps> = (props) => (
               role="button"
               onClick={(e: any) => smoothScroll(e, "experience")}
             >
-              <FontAwesomeIcon icon={faChevronDown} />
+              <FaChevronCircleDown />
             </a>
           </p>
         </Container>

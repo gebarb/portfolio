@@ -2,6 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Experience from "../../models/experience";
 
+// TODO: make these scroll horizontally
 export const ExperienceCard: React.FC<Experience> = (props) => {
   const imagePath: string = props.image ? "img/" + props.image : "";
   let header;
@@ -22,7 +23,9 @@ export const ExperienceCard: React.FC<Experience> = (props) => {
       <Card.Body>
         <Card.Title>{header}</Card.Title>
         <Card.Subtitle>{sub}</Card.Subtitle>
-        <Card.Text>{props.timeframe_begin + " - " + props.timeframe_end}</Card.Text>
+        <Card.Text>
+          {props.timeframe_begin + " - " + props.timeframe_end}
+        </Card.Text>
       </Card.Body>
     </Card>
   );

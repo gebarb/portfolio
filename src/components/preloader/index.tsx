@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import $ from "jquery";
 import "./style.scss";
 
-export default () => {
+const Preloader = () => {
   useEffect(() => {
     $(window).on("load", function() {
       if ($("#preloader").length) {
@@ -17,3 +17,5 @@ export default () => {
 
   return <div id="preloader"></div>;
 };
+
+export default Preloader;

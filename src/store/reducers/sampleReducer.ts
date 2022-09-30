@@ -334,6 +334,8 @@ export const initState: Portfolio = {
     },
 }
 
-export default (state: Portfolio = initState) => {
+export const State = (state: Portfolio = initState) => {
     return state
 }
+
+export default State;

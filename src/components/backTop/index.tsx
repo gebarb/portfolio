@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { FaChevronCircleUp } from "react-icons/fa";
 import $ from "jquery";
 import "./style.scss";
 
-export default () => {
+const BackTop = () => {
   useEffect(() => {
     $(".back-to-top").click(function() {
       const VX_DURATION_MS = 1500;
@@ -35,7 +34,9 @@ export default () => {
 
   return (
     <a href="/#" className="back-to-top animated">
-      <FontAwesomeIcon icon={faChevronUp} />
+      <FaChevronCircleUp />
     </a>
   );
 };
+
+export default BackTop;

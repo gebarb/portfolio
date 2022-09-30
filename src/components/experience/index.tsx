@@ -42,7 +42,7 @@ export const Experience: React.FC<{ experience: ExperienceModel[] }> = (
 const mapStateToProps = (state: RootState) => {
   const jobs = state.portfolio.resume.jobs;
   const edu = state.portfolio.resume.edu;
-  let experiences = [...jobs, ...edu];
+  const experiences = [...jobs, ...edu];
   experiences.sort((a: ExperienceModel, b: ExperienceModel) => {
     const a_time = new Date(a.timeframe_end).getTime();
     const b_time = new Date(b.timeframe_end).getTime();

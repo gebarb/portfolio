@@ -5,10 +5,10 @@ import { RootState } from "../../store/myTypes";
 import { Navbar } from "react-bootstrap";
 import { NavbarProps } from "react-bootstrap";
 import NavMenu from "./navMenu";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCannabis } from "@fortawesome/free-solid-svg-icons";
+import { FaCannabis, FaBong, FaJoint, FaDna } from "react-icons/fa";
 import Portfolio from "../../models/portfolio";
 import $ from "jquery";
+import { smoothScroll } from "../../utilities";
 import "./style.scss";
 
 export const TopNav: React.FC<Portfolio> = (props) => {
@@ -47,11 +47,12 @@ export const TopNav: React.FC<Portfolio> = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       {!props.meta.showRepoLink && (
         <Navbar.Brand
-          href="" // Can Put URL for top-left corner Logo click navigation (opens in new tab)
-          target="_blank"
+          href="#home"
+          target="_self"
           className="ml-3 mt-2"
+          onClick={(e: any) => smoothScroll(e, "home")}
         >
-          <FontAwesomeIcon icon={faCannabis} />
+          <FaDna />
         </Navbar.Brand>
       )}
       <NavMenu {...props} />
