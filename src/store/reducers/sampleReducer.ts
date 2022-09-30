@@ -35,7 +35,11 @@ export const initState: Portfolio = {
             {
                 title: "Integrations Engineer",
                 company: "Katalys",
-                timeframe: "February 2021 - Present",
+                timeframe_begin: "February 2021",
+                timeframe_end: (() => {
+                    const curr_time = new Date();
+                    return curr_time.toLocaleString('default', { month: 'long' }) + " " + curr_time.getFullYear();
+                })(),
                 summary: [
                     "Within 1 year, doubled number of Onboarded Advertisers and reduce Onboarding Time from 3 months to 1 week"
                     , "Developed and Maintained public-facing Knowledge Base for Users & Developers"
@@ -48,8 +52,9 @@ export const initState: Portfolio = {
             },
             {
                 title: "Lead Integrations Analyst",
-                company: "CGI Inc. - CalSTRS Project",
-                timeframe: "August 2019 - February 2021",
+                company: "CGI Inc. * CalSTRS Project",
+                timeframe_begin: "August 2019",
+                timeframe_end: "February 2021",
                 summary: [
                     "Planned, wrote, and executed formal test cases for a $1.2 Billion monthly Pension and Payroll Solution for CalSTRS",
                     "Performed as Test Lead and coordinated efforts for technical file-based Interfaces",
@@ -60,7 +65,8 @@ export const initState: Portfolio = {
             {
                 title: "Database Admin/QA Analyst",
                 company: "Granbury Restaurant Solutions",
-                timeframe: "September 2016 - May 2019",
+                timeframe_begin: "September 2016",
+                timeframe_end: "May 2019",
                 summary: [
                     "Linux / Network Administration",
                     "Database Administration",
@@ -71,7 +77,8 @@ export const initState: Portfolio = {
             {
                 title: "IT Specialist",
                 company: "Youth Digital, Inc.",
-                timeframe: "April 2016 - August 2016",
+                timeframe_begin: "April 2016",
+                timeframe_end: "August 2016",
                 summary: [
                     "Coordinated summer camps teaching children ages 6-14 basic programming/design practices",
                     "Android App Design",
@@ -81,7 +88,8 @@ export const initState: Portfolio = {
             {
                 title: "Assistant Manager, Produce Department",
                 company: "United Supermarkets",
-                timeframe: "April 2015 - April 2016",
+                timeframe_begin: "April 2015",
+                timeframe_end: "April 2016",
                 summary: [
                     "Management & Scheduling of Staff/Sales Floor",
                     "Inventory Management",
@@ -94,7 +102,8 @@ export const initState: Portfolio = {
             {
                 degree: "Bachelor of Science in Computer Science & Mathematics",
                 college: "The University of Texas - Arlington",
-                timeframe: "Fall 2016 - Fall 2019",
+                timeframe_begin: "August 2015",
+                timeframe_end: "December 2019",
                 overallGPA: "Overall GPA: 3.266",
                 programGPA: "Program GPA: 3.542 ",
                 summary: [

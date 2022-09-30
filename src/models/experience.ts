@@ -1,5 +1,6 @@
 export default interface Experience {
-    timeframe: string
+    timeframe_begin: string
+    timeframe_end: string
     title?: string
     company?: string
     summary: string[]

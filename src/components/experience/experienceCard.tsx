@@ -22,7 +22,7 @@ export const ExperienceCard: React.FC<Experience> = (props) => {
       <Card.Body>
         <Card.Title>{header}</Card.Title>
         <Card.Subtitle>{sub}</Card.Subtitle>
-        <Card.Text>{props.timeframe}</Card.Text>
+        <Card.Text>{props.timeframe_begin + " - " + props.timeframe_end}</Card.Text>
       </Card.Body>
     </Card>
   );
