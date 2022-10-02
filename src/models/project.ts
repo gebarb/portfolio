@@ -5,4 +5,5 @@ export default interface Project {
     summary: string
     links?: { label: string; url: string }[]
     slides?: []
+    timeframe: string
 }

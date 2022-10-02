@@ -185,6 +185,7 @@ export const initState: Portfolio = {
                             url: "https://github.com/gebarb/portfolio",
                         },
                     ],
+                    timeframe: "September 2022",
                 },
                 {
                     id: "project2",
@@ -198,6 +199,7 @@ export const initState: Portfolio = {
                             url: "https://github.com/gebarb/apis/tree/master/cannabis_reports",
                         },
                     ],
+                    timeframe: "July 2022",
                 },
                 {
                     id: "project3",
@@ -211,6 +213,7 @@ export const initState: Portfolio = {
                             url: "https://github.com/gebarb/python_crash_course/tree/master/alien_invasion",
                         },
                     ],
+                    timeframe: "August 2022",
                 },
                 {
                     id: "project4",
@@ -228,6 +231,7 @@ export const initState: Portfolio = {
                             url: "https://log.graysonebarb.com",
                         },
                     ],
+                    timeframe: "September 2022",
                 },
                 {
                     id: "project5",
@@ -235,6 +239,7 @@ export const initState: Portfolio = {
                     summary:
                         "Designed & Developed a Point-of-Sale System in Object-Oriented Java for a Trade-In Comics/Games/Electronics store",
                     image: "pos.jpg",
+                    timeframe: "2019",
                 },
                 {
                     id: "project6",
@@ -242,14 +247,18 @@ export const initState: Portfolio = {
                     summary:
                         "Derived an Algorithm for eCommerce Sales Forecasting utilizing Fourier Analysis of Time-Series Data",
                     image: "sales_forecast.png",
+                    timeframe: "2021",
                 },
                 {
                     id: "project7",
                     title: "eCommerce Applications",
                     summary:
                         "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST & GraphQL APIs",
-
                     image: "ecom.png",
+                    timeframe: (() => {
+                        const curr_time = new Date();
+                        return curr_time.toLocaleString('default', { month: 'long' }) + " " + curr_time.getFullYear();
+                    })(),
                 },
             ],
         },
@@ -265,6 +274,7 @@ export const initState: Portfolio = {
                     summary:
                         "A UNIX Bash Shell, developed in C",
                     image: "bash.png",
+                    timeframe: "2016",
                 },
                 {
                     id: "college2",
@@ -272,6 +282,7 @@ export const initState: Portfolio = {
                     summary:
                         "A compiler for an example language, built in Python with Lex & Yacc",
                     image: "ply.png",
+                    timeframe: "2018",
                 },
                 {
                     id: "college3",
@@ -285,6 +296,7 @@ export const initState: Portfolio = {
                             url: "https://github.com/gebarb/mfs_demo",
                         },
                     ],
+                    timeframe: "2016",
                 },
                 {
                     id: "college4",
@@ -298,6 +310,7 @@ export const initState: Portfolio = {
                             url: "https://github.com/gebarb/nim",
                         },
                     ],
+                    timeframe: "2017",
                 },
                 {
                     id: "college5",
@@ -315,6 +328,7 @@ export const initState: Portfolio = {
                             url: "https://movie.graysonebarb.com",
                         },
                     ],
+                    timeframe: "2018",
                 },
                 {
                     id: "college6",
@@ -329,6 +343,7 @@ export const initState: Portfolio = {
                                 "https://github.com/gebarb/elawaves",
                         },
                     ],
+                    timeframe: "May 2019",
                 },
             ],
         },
