@@ -47,7 +47,7 @@ export const TopNav: React.FC<Portfolio> = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       {!props.meta.showRepoLink && (
         <Navbar.Brand
-          href="#home"
+          href="#"
           target="_self"
           className="ml-3 mt-2"
           onClick={(e: any) => smoothScroll(e, "home")}

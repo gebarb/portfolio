@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Project from "../../models/project";
 
-// TODO: make these scroll horizontally
 export const ProjectCard: React.FC<Project> = (props) => {
   const imagePath: string = props.image ? "img/" + props.image : "";
 

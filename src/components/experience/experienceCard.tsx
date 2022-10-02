@@ -2,7 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Experience from "../../models/experience";
 
-// TODO: make these scroll horizontally
 export const ExperienceCard: React.FC<Experience> = (props) => {
   const imagePath: string = props.image ? "img/" + props.image : "";
   let header;

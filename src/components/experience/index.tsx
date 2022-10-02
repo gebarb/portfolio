@@ -23,20 +23,17 @@ export const Experience: React.FC<{ experience: ExperienceModel[] }> = (
           subhead={"Previous Roles & Education"}
         />
       </Row>
-      {/* 
-      TODO: scroll on hover instead of with a scrollbar
-      */}
-        <Row className="d-flex flex-row flex-nowrap overflow-auto">
-          {props.experience.map((exp: ExperienceModel, i: number) => {
-            if (exp.image) images.push({ source: makePath(exp.image) });
+      <Row className="d-flex flex-row flex-nowrap overflow-auto">
+        {props.experience.map((exp: ExperienceModel, i: number) => {
+          if (exp.image) images.push({ source: makePath(exp.image) });
 
-            return (
-              <Col xl={4} md={6} key={i}>
-                <ExperienceCard {...exp} key={i} />
-              </Col>
-            );
-          })}
-        </Row>
+          return (
+            <Col xl={4} md={6} key={i}>
+              <ExperienceCard {...exp} key={i} />
+            </Col>
+          );
+        })}
+      </Row>
     </Container>
   );
 };
