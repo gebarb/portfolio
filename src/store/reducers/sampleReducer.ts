@@ -251,6 +251,24 @@ export const initState: Portfolio = {
                 },
                 {
                     id: "project7",
+                    title: "Snake",
+                    summary:
+                    "Mimic of Snake, built with React and TypeScript, and hosted with AWS Amplify",
+                    image: "snake.png",
+                    links: [
+                        {
+                            label: "src",
+                            url: "https://github.com/gebarb/snake",
+                        },
+                        {
+                            label: "app",
+                            url: "https://snake.graysonebarb.com",
+                        },
+                    ],
+                    timeframe: "October 2022",
+                },
+                {
+                    id: "project8",
                     title: "eCommerce Applications",
                     summary:
                         "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST & GraphQL APIs",
@@ -278,9 +296,9 @@ export const initState: Portfolio = {
                 },
                 {
                     id: "college2",
-                    title: "ASL Compiler",
+                    title: "Assembly Compiler",
                     summary:
-                        "A compiler for an example language, built in Python with Lex & Yacc",
+                        "A compiler for `A Simple Language`, built in Python with Lex & Yacc",
                     image: "ply.png",
                     timeframe: "2018",
                 },
