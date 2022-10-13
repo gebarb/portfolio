@@ -199,7 +199,7 @@ export const initState: Portfolio = {
                             url: "https://github.com/gebarb/book-projects",
                         },
                     ],
-                    timeframe: "July 2022",
+                    timeframe: "August 2022",
                 },
                 {
                     id: "project3",
@@ -253,7 +253,7 @@ export const initState: Portfolio = {
                     id: "project7",
                     title: "Snake",
                     summary:
-                    "Mimic of Snake, built with React and TypeScript, and hosted with AWS Amplify",
+                        "Mimic of Snake, built with React and TypeScript, and hosted with AWS Amplify",
                     image: "snake.png",
                     links: [
                         {
@@ -277,6 +277,20 @@ export const initState: Portfolio = {
                         const curr_time = new Date();
                         return curr_time.toLocaleString('default', { month: 'long' }) + " " + curr_time.getFullYear();
                     })(),
+                },
+                {
+                    id: "project9",
+                    title: "LeetCode",
+                    summary:
+                        "Copies of my completed LeetCode Problem submissions",
+                    image: "leetcode.png",
+                    links: [
+                        {
+                            label: "src",
+                            url: "https://github.com/gebarb/leetcode",
+                        },
+                    ],
+                    timeframe: "October 2022",
                 },
             ],
         },
