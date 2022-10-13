@@ -189,14 +189,14 @@ export const initState: Portfolio = {
                 },
                 {
                     id: "project2",
-                    title: "Cannabis Reports API",
+                    title: "Book Projects",
                     summary:
-                        "Helper Classes for communicating with cannabisreports.com, written in Python",
-                    image: "cannabis_reports.png",
+                        "Full list of various example projects from books in my personal library",
+                    image: "book.jpg",
                     links: [
                         {
                             label: "src",
-                            url: "https://github.com/gebarb/apis/tree/master/cannabis_reports",
+                            url: "https://github.com/gebarb/book-projects",
                         },
                     ],
                     timeframe: "July 2022",
@@ -210,7 +210,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url: "https://github.com/gebarb/python_crash_course/tree/master/alien_invasion",
+                            url: "https://github.com/gebarb/book-projects/tree/master/python_crash_course/alien_invasion",
                         },
                     ],
                     timeframe: "August 2022",
@@ -224,7 +224,7 @@ export const initState: Portfolio = {
                     links: [
                         {
                             label: "src",
-                            url: "https://github.com/gebarb/python_crash_course/tree/master/learning_log",
+                            url: "https://github.com/gebarb/book-projects/tree/master/python_crash_course/learning_log",
                         },
                         {
                             label: "app",
