@@ -265,7 +265,7 @@ export const initState: Portfolio = {
                             url: "https://snake.graysonebarb.com",
                         },
                     ],
-                    timeframe: "October 2022",
+                    timeframe: "October 11, 2022",
                 },
                 {
                     id: "project8",
@@ -311,7 +311,7 @@ export const initState: Portfolio = {
                             url: "https://stocks.graysonebarb.com",
                         },
                     ],
-                    timeframe: "October 2022",
+                    timeframe: "October 18, 2022",
                 },
             ],
         },
