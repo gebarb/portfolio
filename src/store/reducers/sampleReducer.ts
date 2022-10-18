@@ -253,7 +253,7 @@ export const initState: Portfolio = {
                     id: "project7",
                     title: "Snake",
                     summary:
-                        "Mimic of Snake, built with React and TypeScript, and hosted with AWS Amplify",
+                        "Mimic of Snake, built with React and TypeScript, and hosted with AWS",
                     image: "snake.png",
                     links: [
                         {
@@ -288,6 +288,27 @@ export const initState: Portfolio = {
                         {
                             label: "src",
                             url: "https://github.com/gebarb/leetcode",
+                        },
+                    ],
+                    timeframe: (() => {
+                        const curr_time = new Date();
+                        return curr_time.toLocaleString('default', { month: 'long' }) + " " + curr_time.getFullYear();
+                    })(),
+                },
+                {
+                    id: "project10",
+                    title: "Stocks Charts",
+                    summary:
+                        "A React Application that charts Real-Time Stock Market data, hosted with AWS",
+                    image: "stonks.png",
+                    links: [
+                        {
+                            label: "src",
+                            url: "https://github.com/gebarb/stocks-charts",
+                        },
+                        {
+                            label: "app",
+                            url: "https://stocks.graysonebarb.com",
                         },
                     ],
                     timeframe: "October 2022",
@@ -348,7 +369,7 @@ export const initState: Portfolio = {
                     id: "college5",
                     title: "Movie Decider",
                     summary:
-                        "A JavaScript Web Application to recommend movies to watch based on a supplied search and selection, hosted with AWS Amplify",
+                        "A JavaScript Web Application to recommend movies to watch based on a supplied search and selection, hosted with AWS",
                     image: "movie_reel.jpg",
                     links: [
                         {
