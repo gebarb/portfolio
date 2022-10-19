@@ -297,18 +297,18 @@ export const initState: Portfolio = {
                 },
                 {
                     id: "project10",
-                    title: "Stocks Charts",
+                    title: "Markets Charts",
                     summary:
-                        "A React Application that charts Real-Time Stock Market data, hosted with AWS",
+                        "A React Application that charts Real-Time Stock, Forex, & Crypto market data, hosted with AWS",
                     image: "stonks.png",
                     links: [
                         {
                             label: "src",
-                            url: "https://github.com/gebarb/stocks-charts",
+                            url: "https://github.com/gebarb/markets-charts",
                         },
                         {
                             label: "app",
-                            url: "https://stocks.graysonebarb.com",
+                            url: "https://markets.graysonebarb.com",
                         },
                     ],
                     timeframe: "October 18, 2022",
