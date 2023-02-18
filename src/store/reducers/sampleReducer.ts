@@ -33,14 +33,21 @@ export const initState: Portfolio = {
         jobsHeadline: "Professional Experience",
         jobs: [
             {
-                title: "Integrations Engineer",
-                company: "Katalys",
-                image: "katalys.png",
-                timeframe_begin: "February 2021",
+                title: "Senior Software Developer",
+                company: "Certrec",
+                image: "certrec.jpeg",
+                timeframe_begin: "February 2023",
                 timeframe_end: (() => {
                     const curr_time = new Date();
                     return curr_time.toLocaleString('default', { month: 'long' }) + " " + curr_time.getFullYear();
                 })(),
+            },
+            {
+                title: "Integrations Engineer",
+                company: "Katalys",
+                image: "katalys.png",
+                timeframe_begin: "February 2021",
+                timeframe_end: "February 2023",
                 summary: [
                     "Within 1 year, doubled number of Onboarded Advertisers and reduce Onboarding Time from 3 months to 1 week"
                     , "Developed and Maintained public-facing Knowledge Base for Users & Developers"
@@ -273,10 +280,7 @@ export const initState: Portfolio = {
                     summary:
                         "Created & Managed Public and Private Apps, for Magento & WooCommerce (PHP), Shopify & BigCommerce (TypeScript), utilizing REST & GraphQL APIs",
                     image: "ecom.png",
-                    timeframe: (() => {
-                        const curr_time = new Date();
-                        return curr_time.toLocaleString('default', { month: 'long' }) + " " + curr_time.getFullYear();
-                    })(),
+                    timeframe: "February 17, 2023",
                 },
                 {
                     id: "project9",

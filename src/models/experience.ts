@@ -3,7 +3,7 @@ export default interface Experience {
     timeframe_end: string
     title?: string
     company?: string
-    summary: string[]
+    summary?: string[]
     degree?: string
     school?: string
     programGPA?: string

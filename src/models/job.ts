@@ -3,6 +3,6 @@ export default interface Job {
     timeframe_end: string
     title: string
     company: string
-    summary: string[]
+    summary?: string[]
     image?: string
 }
