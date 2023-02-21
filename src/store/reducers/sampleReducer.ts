@@ -35,7 +35,7 @@ export const initState: Portfolio = {
             {
                 title: "Senior Software Developer",
                 company: "Certrec",
-                image: "certrec.jpeg",
+                image: "certrec.png",
                 timeframe_begin: "February 2023",
                 timeframe_end: (() => {
                     const curr_time = new Date();
