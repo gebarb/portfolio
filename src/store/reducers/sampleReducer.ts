@@ -233,10 +233,10 @@ export const initState: Portfolio = {
                             label: "src",
                             url: "https://github.com/gebarb/book-projects/tree/master/python_crash_course/learning_log",
                         },
-                        {
-                            label: "app",
-                            url: "https://log.graysonebarb.com",
-                        },
+                        // {
+                        //     label: "app",
+                        //     url: "https://log.graysonebarb.com",
+                        // },
                     ],
                     timeframe: "September 2022",
                 },
