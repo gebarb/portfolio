@@ -317,6 +317,19 @@ export const initState: Portfolio = {
                     ],
                     timeframe: "October 18, 2022",
                 },
+                {
+                    id: "project11",
+                    title: "Stumblr",
+                    summary: "A React Application to randomly browse the Internet, hosted with AWS",
+                    image: "stumbling.png",
+                    links: [
+                        {
+                            label: "app",
+                            url: "https://stumblr.graysonebarb.com",
+                        },
+                    ],
+                    timeframe: "May 5, 2023",
+                }
             ],
         },
         {
