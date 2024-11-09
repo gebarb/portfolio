@@ -4,7 +4,7 @@ export const initState: Portfolio = {
     meta: {
         title: "Grayson's Portfolio",
         description: "Grayson Ebarb",
-        icon: "logo.jpg",
+        icon: "logo.png",
         showRepoLink: false,
     },
     menu: {
