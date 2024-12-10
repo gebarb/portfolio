@@ -59,7 +59,7 @@ export const initState: Portfolio = {
                 ]
             },
             {
-                title: "QA/Test Analyst",
+                title: "Test/QA Analyst",
                 company: "CGI Inc. * CalSTRS Project",
                 image: "cgi.jpg",
                 timeframe_begin: "August 2019",
