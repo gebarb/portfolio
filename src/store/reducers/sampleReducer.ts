@@ -17,8 +17,8 @@ export const initState: Portfolio = {
         typed: [
             "I'm Grayson Ebarb",
             "a Software Engineer",
-            "Mathematician",
-            "and Data Guru",
+            "IT Professional",
+            "and Mathematician",
         ],
     },
     resume: {
@@ -33,7 +33,7 @@ export const initState: Portfolio = {
         jobsHeadline: "Professional Experience",
         jobs: [
             {
-                title: "Senior Software Developer",
+                title: "Developer III",
                 company: "Certrec",
                 image: "certrec.png",
                 timeframe_begin: "February 2023",
@@ -43,7 +43,7 @@ export const initState: Portfolio = {
                 })(),
             },
             {
-                title: "Integrations Engineer",
+                title: "Technical Integrations Specialist",
                 company: "Katalys",
                 image: "katalys.png",
                 timeframe_begin: "February 2021",
@@ -59,7 +59,7 @@ export const initState: Portfolio = {
                 ]
             },
             {
-                title: "Lead Integrations Analyst",
+                title: "QA/Test Analyst",
                 company: "CGI Inc. * CalSTRS Project",
                 image: "cgi.jpg",
                 timeframe_begin: "August 2019",
@@ -72,7 +72,7 @@ export const initState: Portfolio = {
                 ]
             },
             {
-                title: "Database Admin/QA Analyst",
+                title: "Escalation Support Technician",
                 company: "Granbury Restaurant Solutions",
                 image: "granbury.png",
                 timeframe_begin: "September 2016",
@@ -95,19 +95,7 @@ export const initState: Portfolio = {
                     "Android App Design",
                     "3D Game/Game Mod Design",
                 ]
-            },
-            {
-                title: "Assistant Manager, Produce Department",
-                company: "United Supermarkets",
-                timeframe_begin: "April 2015",
-                timeframe_end: "April 2016",
-                image: "united.png",
-                summary: [
-                    "Management & Scheduling of Staff/Sales Floor",
-                    "Inventory Management",
-                    "Assist customers while maintaining United Supermarkets’ Mission and Values",
-                ]
-            },
+            }
         ],
         eduHeadline: "Education",
         edu: [
