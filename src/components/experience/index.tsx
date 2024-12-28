@@ -38,17 +38,19 @@ export const Experience: React.FC<{ experience: ExperienceModel[] }> = (
   );
 };
 
+const dateSort = (a: ExperienceModel, b: ExperienceModel) => {
+  const a_time = new Date(a.timeframe_end).getTime();
+  const b_time = new Date(b.timeframe_end).getTime();
+  if (a_time < b_time) return 1;
+  else if (a_time > b_time) return -1;
+  else return 0;
+};
+
 const mapStateToProps = (state: RootState) => {
   const jobs = state.portfolio.resume.jobs;
   const edu = state.portfolio.resume.edu;
   const experiences = [...jobs, ...edu];
-  experiences.sort((a: ExperienceModel, b: ExperienceModel) => {
-    const a_time = new Date(a.timeframe_end).getTime();
-    const b_time = new Date(b.timeframe_end).getTime();
-    if (a_time < b_time) return 1;
-    else if (a_time > b_time) return -1;
-    else return 0;
-  });
+  experiences.sort(dateSort);
 
   return {
     experience: experiences,

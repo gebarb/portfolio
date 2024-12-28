@@ -13,10 +13,7 @@ export const Resume: React.FC<ResumeProps> = (props) => (
       <Col className="shadow-sm p-5 bg-light">
         <Row>
           <Col md={6} style={{ padding: "25px" }}>
-            {/* 
-            This is basically a cover letter, don't brag SO much
             <Intro {...props} />
-            */}
             <List
               headline={props.skillsHeadline}
               list={props.skills}

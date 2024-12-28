@@ -5,7 +5,7 @@ import { RootState } from "../../store/myTypes";
 import { Navbar } from "react-bootstrap";
 import { NavbarProps } from "react-bootstrap";
 import NavMenu from "./navMenu";
-import { FaDna } from "react-icons/fa";
+import { FaCode, FaDna, FaTerminal } from "react-icons/fa";
 import Portfolio from "../../models/portfolio";
 import $ from "jquery";
 import { smoothScroll } from "../../utilities";
@@ -52,7 +52,7 @@ export const TopNav: React.FC<Portfolio> = (props) => {
           className="ml-3 mt-2"
           onClick={(e: any) => smoothScroll(e, "home")}
         >
-          <FaDna />
+          <FaTerminal />
         </Navbar.Brand>
       )}
       <NavMenu {...props} />
