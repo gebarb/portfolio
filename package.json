@@ -10,7 +10,7 @@
         "gh-pages": "^2.0.1",
         "jquery": "^3.4.1",
         "jquery.easing": "^1.4.1",
-        "node-sass": "^7.0.1",
+        "sass": "^1.97.0",
         "normalize.css": "^8.0.1",
         "popper.js": "^1.16.1",
         "react": "^16.8.6",
