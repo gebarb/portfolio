@@ -1,5 +1,14 @@
 import Portfolio from "../../models/portfolio";
 
+const PRESENT = (() => {
+  const curr_time = new Date();
+  return (
+    curr_time.toLocaleString("default", { month: "long" }) +
+    " " +
+    curr_time.getFullYear()
+  );
+})();
+
 export const initState: Portfolio = {
   meta: {
     title: "Grayson's Portfolio",
@@ -22,18 +31,18 @@ export const initState: Portfolio = {
     jobsHeadline: "Professional Experience",
     jobs: [
       {
+        title: "Principal Software Engineer",
+        company: "Capital One",
+        image: "capital-one.png",
+        timeframe_begin: "April 2025",
+        timeframe_end: PRESENT
+      },
+      {
         title: "Developer III",
         company: "Certrec",
         image: "certrec.png",
         timeframe_begin: "February 2023",
-        timeframe_end: (() => {
-          const curr_time = new Date();
-          return (
-            curr_time.toLocaleString("default", { month: "long" }) +
-            " " +
-            curr_time.getFullYear()
-          );
-        })(),
+        timeframe_end: "February 2025",
       },
       {
         title: "Technical Integrations Specialist",
@@ -254,6 +263,19 @@ export const initState: Portfolio = {
           ],
           timeframe: "May 5, 2023",
         },
+        {
+          id: "project12",
+          title: "Wedding Website",
+          summary: "I got married and created our website with Nuxt 3 & Vue!",
+          image: "wedding.png",
+          links:[
+            {
+              label: "site",
+                url: "https://ebarbwedding.com"
+            }
+          ],
+          timeframe: "November, 11 2024"
+        }
       ],
     },
     {
