@@ -8,7 +8,7 @@ const Preloader = () => {
       if ($("#preloader").length) {
         $("#preloader")
           .delay(100)
-          .fadeOut("slow", function() {
+          .fadeOut("slow", function(this: HTMLElement) {
             $(this).remove();
           });
       }
