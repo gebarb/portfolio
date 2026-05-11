@@ -276,28 +276,28 @@ export const initState: Portfolio = {
           ],
           timeframe: "November 11 2024"
         },
-        // {
-        //   id: "project13",
-        //   title: "DynamiCRUD",
-        //   summary: "A dynamic CRUD application built with React and Node.js",
-        //   image: "dynamicrud.png",
-        //   links:[
-        //     {
-        //       label: "site",
-        //         url: "https://dynamicrud.graysonebarb.com"
-        //     }
-        //   ],
-        //   timeframe: "February 2, 2025"
-        // },
+        {
+          id: "project13",
+          title: "DynamiCRUD",
+          summary: "A dynamic CRUD application built with React and Node.js",
+          image: "dynamicrud.png",
+          links:[
+            {
+              label: "site",
+                url: "https://dynamicrud.graysonebarb.com"
+            }
+          ],
+          timeframe: "February 2, 2025"
+        },
         {
           id: "project14",
-          title: "LiftForge",
+          title: "RepMatix",
           summary: "An automated workout prescription and fitness tracking application built with Flutter and Dart",
-          image: "liftforge.png",
+          image: "repmatix.png",
           links: [
             {
               label: "app",
-              url: "https://liftforge.graysonebarb.com",
+              url: "https://repmatix.graysonebarb.com",
             },
           ],
           timeframe: "January 12, 2026",
