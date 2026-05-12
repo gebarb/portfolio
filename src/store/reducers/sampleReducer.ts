@@ -23,7 +23,7 @@ export const initState: Portfolio = {
   },
   intro: {
     headline: "Howdy! Nice to meet you.",
-    typed: ["I'm Grayson Ebarb", "a Software Engineer", "and IT Professional"],
+    typed: ["I'm Grayson Ebarb", "a Software Engineer", "and Technical Problem Solver"],
   },
   resume: {
     headline: "",
@@ -283,8 +283,8 @@ export const initState: Portfolio = {
           image: "dynamicrud.png",
           links:[
             {
-              label: "site",
-                url: "https://dynamicrud.graysonebarb.com"
+              label: "app",
+              url: "https://dynamicrud.graysonebarb.com"
             }
           ],
           timeframe: "February 2, 2025"
@@ -299,6 +299,10 @@ export const initState: Portfolio = {
               label: "app",
               url: "https://repmatix.graysonebarb.com",
             },
+            {
+              label: "android",
+              url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/repmatix-1.0.0%2B1.apk",
+            }
           ],
           timeframe: "January 12, 2026",
         }
@@ -396,6 +400,10 @@ export const initState: Portfolio = {
       {
         service: "github",
         link: "https://github.com/gebarb",
+      },
+      {
+        service: "email",
+        link: "mailto:ghebarb+portfolio@gmail.com",
       },
     ],
     footerMessage: "Thanks for stopping by!",
