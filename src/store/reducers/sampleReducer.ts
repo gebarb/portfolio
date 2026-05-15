@@ -274,7 +274,7 @@ export const initState: Portfolio = {
                 url: "https://ebarbwedding.com"
             }
           ],
-          timeframe: "November 11 2024"
+          timeframe: "November 11, 2024"
         },
         {
           id: "project13",
@@ -300,12 +300,29 @@ export const initState: Portfolio = {
               url: "https://repmatix.graysonebarb.com",
             },
             {
-              label: "android",
-              url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/repmatix-1.0.0%2B1.apk",
+              label: "download",
+              url: "https://repmatix.graysonebarb.com/#/get-app",
             }
           ],
           timeframe: "January 12, 2026",
-        }
+        },
+        // {
+        //   id: "project15",
+        //   title: "Meadery",
+        //   summary: "A meadery website built with Flutter and Dart",
+        //   image: "meadery.png",
+        //   links: [
+        //     {
+        //       label: "app",
+        //       url: "https://meadery.graysonebarb.com",
+        //     },
+        //     {
+        //       label: "download",
+        //       url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/meadery-1.0.0%2B1.apk",
+        //     }
+        //   ],
+        //   timeframe: "May 12, 2026",
+        // }
       ],
     },
     {

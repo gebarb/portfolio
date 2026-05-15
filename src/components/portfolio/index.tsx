@@ -6,6 +6,7 @@ import { Container } from "react-bootstrap";
 import Section from "./section";
 import SectionModel from "../../models/section";
 import ProjectModel from "../../models/project";
+import { parseTimeframe } from "../../utilities";
 import "./style.scss";
 
 export const Portfolio: React.FC<{ sections: SectionModel[] }> = (props) => (
@@ -20,8 +21,8 @@ const mapStateToProps = (state: RootState) => {
   const sections: SectionModel[] = state.portfolio.sections;
   for (let i = 0; i < sections.length; i++) {
     sections[i].projects.sort((a: ProjectModel, b: ProjectModel) => {
-      const a_time = new Date(a.timeframe).getTime();
-      const b_time = new Date(b.timeframe).getTime();
+      const a_time = parseTimeframe(a.timeframe);
+      const b_time = parseTimeframe(b.timeframe);
       if (a_time < b_time) return 1;
       else if (a_time > b_time) return -1;
       else return 0;
