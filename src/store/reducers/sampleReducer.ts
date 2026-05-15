@@ -300,9 +300,8 @@ export const initState: Portfolio = {
               url: "https://repmatix.graysonebarb.com",
             },
             {
-              label: "download",
-              url: "https://repmatix.graysonebarb.com/#/get-app",
-            }
+              label: "android",
+              url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/repmatix-release.apk",            }
           ],
           timeframe: "January 12, 2026",
         },
@@ -318,7 +317,7 @@ export const initState: Portfolio = {
         //     },
         //     {
         //       label: "download",
-        //       url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/meadery-1.0.0%2B1.apk",
+        //       url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/meadery-release.apk",
         //     }
         //   ],
         //   timeframe: "May 12, 2026",
