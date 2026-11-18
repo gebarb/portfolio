@@ -31,7 +31,7 @@ export const initState: Portfolio = {
     jobsHeadline: "Professional Experience",
     jobs: [
       {
-        title: "Full Stack Engineern 3",
+        title: "Full Stack Engineer 3",
         company: "Capital One",
         image: "capital-one.png",
         timeframe_begin: "April 2025",
