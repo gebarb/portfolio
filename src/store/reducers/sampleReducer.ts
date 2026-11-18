@@ -23,7 +23,7 @@ export const initState: Portfolio = {
   },
   intro: {
     headline: "Howdy! Nice to meet you.",
-    typed: ["I'm Grayson Ebarb", "a Software Engineer", "and Technical Problem Solver"],
+    typed: ["I'm Grayson Ebarb", "a Software Engineer,", "Technical Leader,", "and Problem Solver"],
   },
   resume: {
     headline: "",
@@ -31,7 +31,7 @@ export const initState: Portfolio = {
     jobsHeadline: "Professional Experience",
     jobs: [
       {
-        title: "Principal Software Engineer",
+        title: "Full Stack Engineern 3",
         company: "Capital One",
         image: "capital-one.png",
         timeframe_begin: "April 2025",
@@ -268,10 +268,10 @@ export const initState: Portfolio = {
           title: "Wedding Website",
           summary: "I got married and created our website with Nuxt 3 & Vue!",
           image: "wedding.png",
-          links:[
+          links: [
             {
               label: "site",
-                url: "https://ebarbwedding.com"
+              url: "https://ebarbwedding.com"
             }
           ],
           timeframe: "November 11, 2024"
@@ -281,7 +281,7 @@ export const initState: Portfolio = {
           title: "DynamiCRUD",
           summary: "A dynamic CRUD application built with React and Node.js",
           image: "dynamicrud.png",
-          links:[
+          links: [
             {
               label: "app",
               url: "https://dynamicrud.graysonebarb.com"
@@ -301,27 +301,24 @@ export const initState: Portfolio = {
             },
             {
               label: "android",
-              url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/repmatix-release.apk",            }
+              url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/repmatix-release.apk",
+            }
           ],
           timeframe: "January 12, 2026",
         },
-        // {
-        //   id: "project15",
-        //   title: "Meadery",
-        //   summary: "A meadery website built with Flutter and Dart",
-        //   image: "meadery.png",
-        //   links: [
-        //     {
-        //       label: "app",
-        //       url: "https://meadery.graysonebarb.com",
-        //     },
-        //     {
-        //       label: "download",
-        //       url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/meadery-release.apk",
-        //     }
-        //   ],
-        //   timeframe: "May 12, 2026",
-        // }
+        {
+          id: "project15",
+          title: "AI Skills",
+          summary: "A collection of AI rules, skills, and workflows",
+          image: "ai.png",
+          links: [
+            {
+              label: "src",
+              url: "https://github.com/graysonbarb/ai-skills",
+            }
+          ],
+          timeframe: "May 2026",
+        },
       ],
     },
     {
