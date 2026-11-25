@@ -12,6 +12,7 @@ import Intro from "./components/intro";
 import Experience from "./components/experience";
 import Resume from "./components/resume";
 import Portfolio from "./components/portfolio";
+import Contact from "./components/contact";
 import Footer from "./components/footer";
 import BackToTop from "./components/backTop";
 import Preloader from "./components/preloader";
@@ -40,6 +41,7 @@ export const App = () => {
         <Intro />
         <Experience />
         <Portfolio />
+        <Contact />
         {/*
         Using simplified Experience variant
         <Resume />
