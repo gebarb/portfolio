@@ -29,7 +29,12 @@ export const initState: Portfolio = {
   },
   intro: {
     headline: "Howdy! Nice to meet you.",
-    typed: ["I'm Grayson Ebarb", "a Software Engineer,", "Technical Leader,", "and Problem Solver"],
+    typed: [
+      "I'm Grayson Ebarb",
+      "a Software Engineer,",
+      "Technical Leader,",
+      "and Problem Solver",
+    ],
   },
   resume: {
     headline: "",
@@ -41,7 +46,7 @@ export const initState: Portfolio = {
         company: "Capital One",
         image: "capital-one.png",
         timeframe_begin: "April 2025",
-        timeframe_end: PRESENT
+        timeframe_end: PRESENT,
       },
       {
         title: "Developer III",
@@ -277,10 +282,10 @@ export const initState: Portfolio = {
           links: [
             {
               label: "site",
-              url: "https://ebarbwedding.com"
-            }
+              url: "https://ebarbwedding.com",
+            },
           ],
-          timeframe: "November 11, 2024"
+          timeframe: "November 11, 2024",
         },
         {
           id: "project13",
@@ -290,15 +295,16 @@ export const initState: Portfolio = {
           links: [
             {
               label: "app",
-              url: "https://dynamicrud.graysonebarb.com"
-            }
+              url: "https://dynamicrud.graysonebarb.com",
+            },
           ],
-          timeframe: "February 2, 2025"
+          timeframe: "February 2, 2025",
         },
         {
           id: "project14",
           title: "RepMatix",
-          summary: "An automated workout prescription and fitness tracking application built with Flutter and Dart",
+          summary:
+            "An automated workout prescription and fitness tracking application built with Flutter and Dart",
           image: "repmatix.png",
           links: [
             {
@@ -307,8 +313,9 @@ export const initState: Portfolio = {
             },
             {
               label: "android",
-              url: "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/repmatix-release.apk",
-            }
+              url:
+                "https://ebarb-releases.s3.us-west-1.amazonaws.com/android/repmatix-release.apk",
+            },
           ],
           timeframe: "January 12, 2026",
         },
@@ -321,7 +328,7 @@ export const initState: Portfolio = {
             {
               label: "src",
               url: "https://github.com/gebarb/ai-skills",
-            }
+            },
           ],
           timeframe: "May 2026",
         },
@@ -414,12 +421,12 @@ export const initState: Portfolio = {
     headline: "Work with me",
     offers: [
       {
-        id: "training",
-        title: "Personal Training",
-        detail: "Fitness & Weightlifting",
-        email: email("fitness"),
-        subject: "Personal Training",
-        action: "Email About Training",
+        id: "fulltime",
+        title: "Join the Team",
+        detail: "A permanent role in your organization",
+        email: email("hire"),
+        subject: "Full-Time Role",
+        action: "Say Hello",
       },
       {
         id: "contract",
@@ -430,12 +437,12 @@ export const initState: Portfolio = {
         action: "Start A Conversation",
       },
       {
-        id: "fulltime",
-        title: "Join the Team",
-        detail: "A permanent role in your organization",
-        email: email("hire"),
-        subject: "Full-Time Role",
-        action: "Say Hello",
+        id: "training",
+        title: "Personal Training",
+        detail: "Fitness & Weightlifting",
+        email: email("fitness"),
+        subject: "Personal Training",
+        action: "Meet Your Coach",
       },
     ],
   },
