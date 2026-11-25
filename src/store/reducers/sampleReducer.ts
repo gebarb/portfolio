@@ -1,5 +1,10 @@
 import Portfolio from "../../models/portfolio";
 
+const EMAIL_USER = "ghebarb";
+const EMAIL_DOMAIN = "@gmail.com";
+const email = (tag?: string) =>
+  EMAIL_USER + (tag ? "+" + tag : "") + EMAIL_DOMAIN;
+
 const PRESENT = (() => {
   const curr_time = new Date();
   return (
@@ -20,6 +25,7 @@ export const initState: Portfolio = {
     home: "Welcome",
     experience: "Experience",
     resume: "Resume",
+    contact: "Contact",
   },
   intro: {
     headline: "Howdy! Nice to meet you.",
@@ -309,12 +315,12 @@ export const initState: Portfolio = {
         {
           id: "project15",
           title: "AI Skills",
-          summary: "A collection of AI rules, skills, and workflows",
+          summary: "A curated collection of AI rules, skills, and workflows",
           image: "ai.png",
           links: [
             {
               label: "src",
-              url: "https://github.com/graysonbarb/ai-skills",
+              url: "https://github.com/gebarb/ai-skills",
             }
           ],
           timeframe: "May 2026",
@@ -404,6 +410,35 @@ export const initState: Portfolio = {
       ],
     },
   ],
+  contact: {
+    headline: "Work with me",
+    offers: [
+      {
+        id: "training",
+        title: "Personal Training",
+        detail: "Fitness & Weightlifting",
+        email: email("fitness"),
+        subject: "Personal Training",
+        action: "Email About Training",
+      },
+      {
+        id: "contract",
+        title: "Contract & Consulting",
+        detail: "Projects & Technical Guidance",
+        email: email("contract"),
+        subject: "Contract Work",
+        action: "Start A Conversation",
+      },
+      {
+        id: "fulltime",
+        title: "Join the Team",
+        detail: "A permanent role in your organization",
+        email: email("hire"),
+        subject: "Full-Time Role",
+        action: "Say Hello",
+      },
+    ],
+  },
   footer: {
     social: [
       {
@@ -416,7 +451,7 @@ export const initState: Portfolio = {
       },
       {
         service: "email",
-        link: "mailto:ghebarb+portfolio@gmail.com",
+        link: "mailto:" + email("portfolio"),
       },
     ],
     footerMessage: "Thanks for stopping by!",

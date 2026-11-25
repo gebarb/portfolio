@@ -4,6 +4,7 @@ import Section from './section'
 import Social from './social'
 import Edu from './edu'
 import Service from './service'
+import Contact from './contact'
 
 export default interface Portfolio {
     meta: {
@@ -16,6 +17,7 @@ export default interface Portfolio {
         home: string
         experience: string
         resume: string
+        contact: string
     }
     intro: {
         headline: string
@@ -34,6 +36,7 @@ export default interface Portfolio {
         service: Service[]
     }
     sections: Section[]
+    contact: Contact
     footer: {
         social: Social[]
         footerMessage: string

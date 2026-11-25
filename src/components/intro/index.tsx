@@ -42,6 +42,16 @@ export const Intro: React.FC<IntroProps> = (props) => (
               />
             </strong>
           </p>
+          <p className="pt-3 mb-2">
+            <a
+              className="btn btn-primary btn-lg js-scroll px-4"
+              href="#contact"
+              role="button"
+              onClick={(e: any) => smoothScroll(e, "contact")}
+            >
+              Get In Touch
+            </a>
+          </p>
           <p className="pt-3">
             <a
               className="btn btn-primary btn-lg js-scroll px-4"

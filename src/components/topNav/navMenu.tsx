@@ -30,6 +30,12 @@ export const navMenu: React.FC<Portfolio> = (props) => {
             {section.menu}
           </Nav.Link>
         ))}
+        <Nav.Link
+          href="#contact"
+          onClick={(e: any) => smoothScroll(e, "contact")}
+        >
+          {props.menu.contact}
+        </Nav.Link>
       </Nav>
     </Navbar.Collapse>
   );
